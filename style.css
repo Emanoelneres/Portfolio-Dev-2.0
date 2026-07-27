@@ -1,0 +1,99 @@
+* {
+   margin: 0;
+   /*Remove os espaçamentos entre os elementos*/
+   padding: 0;
+   /*Encosta os elementos na parede*/
+   box-sizing: border-box;
+   /*Usa somente as medidas que eu já estabeleci*/
+   font-family: 'Inter', sans-serif;
+   /*Fonte de texto*/
+}
+
+
+
+body {
+   background: linear-gradient(135deg,
+         #0F172A,
+         #1E3A5F,
+         #4C1D95);
+}
+
+
+
+.header-nav {
+   width: 60%;
+   /*Largura definida do elemento*/
+   height: 120px;
+   /*Altura Definida do elemento*/
+   margin-left: 19%;
+   /*espaçamento esquerdo do elemento*/
+   margin-top: 2%;
+   /*espaçamento na parte de cima*/
+   display: flex;
+   flex-direction: row;
+   /*Elementos vão ficar na mesma linha*/
+   justify-content: center;
+   /*Elementos vão ficar centralizados*/
+   align-items: center;
+   gap: 250px;
+   /*espaçamento entre os elementos*/
+
+   background: rgba(59, 130, 246, 0.15);
+   backdrop-filter: blur(20px);
+   /*Desfoque no body */
+   border: 1px solid rgba(255, 255, 255, 0.2);
+   border-radius: 30px;
+   /*Arredondamento da borda*/
+   color: #FFFFFF;
+
+}
+
+#nav-secoes {
+   color: #FFFFFF;
+   display: flex;
+   gap: 15px;
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#img-main-futuro {
+   height: 100px;
+
+}
+
+#img-section-robo {
+   height: 100px;
+
+
+}
+
+#img-section-raio {
+   height: 100px;
+
+}
+
+#img-section-cell {
+   height: 100px;
+}
