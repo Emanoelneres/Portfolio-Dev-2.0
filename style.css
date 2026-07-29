@@ -20,6 +20,14 @@ body {
 
 
 
+
+#container {
+   display: none;
+
+}
+
+
+
 .header-nav {
    width: 65%;
    /*Largura definida do elemento*/
@@ -206,5 +214,45 @@ body {
    font-size: 15px;
    margin-top: 1%;
 
+}
+
+
+.minha-img-section-me-conheca {
+   height: 100px;
+
+}
+
+#section-header-me-conheca {
+   margin-left: 19%;
+   background: rgba(59, 130, 246, 0.15);
+   border: 1px solid rgba(255, 255, 255, 0.2);
+   height: 330px;
+   width: 66%;
+   border: 1px solid rgba(255, 255, 255, 0.2);
+   border-radius: 30px;
+}
+
+#minha-img-section-me-conheca {
+   margin-left: 20px;
+   margin-top: 2%;
+   height: 300px;
+   border-radius: 40px;
+   border: 1px solid
+}
+
+#h1-boas-vindas-container-me-conheca {
+   margin-left: 320px;
+   position: relative;
+   top: -280px;
+   font-size: 40px;
+   color: #FFFFFF;
+}
+
+#paragrafo-container-me-conheca {
+   margin-left: 320px;
+   position: relative;
+   top: -250px;
+   font-size: 20px;
+   color: #FFFFFF;
 
 }
