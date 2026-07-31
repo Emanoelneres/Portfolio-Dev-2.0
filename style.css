@@ -230,6 +230,7 @@ body {
    width: 66%;
    border: 1px solid rgba(255, 255, 255, 0.2);
    border-radius: 30px;
+   margin-bottom: 4%;
 }
 
 #minha-img-section-me-conheca {
@@ -254,5 +255,258 @@ body {
    top: -250px;
    font-size: 20px;
    color: #FFFFFF;
+}
 
+
+#container-me-conheca-habilidades-grafico {
+   margin-left: 19%;
+   background: rgba(59, 130, 246, 0.15);
+   border: 1px solid rgba(255, 255, 255, 0.2);
+   height: 400px;
+   width: 66%;
+   border: 1px solid rgba(255, 255, 255, 0.2);
+   border-radius: 30px;
+
+}
+
+#minha-habilidade-article-me-conheca {
+   text-align: center;
+   color: #FFFFFF;
+   margin-top: 4%;
+   font-size: 30px;
+}
+
+
+#container-habilidade-html {
+   display: flex;
+   flex-direction: row;
+   margin-top: 5%;
+
+}
+
+#habilidade-tecnologia-html {
+   color: #FFFFFF;
+   margin-left: 16%;
+   font-size: 20px;
+}
+
+
+#color {
+   background-color: #663399;
+   width: 45%;
+   width: 389px;
+   height: 20px;
+   margin-left: 3%;
+   border-radius: 30px;
+}
+
+#div-porcentagem-html {
+   margin-left: 3%;
+   background: rgba(59, 130, 246, 0.15);
+   border: 1px solid rgba(255, 255, 255, 0.2);
+   width: 50px;
+   height: 30px;
+   border: 1px solid rgba(255, 255, 255, 0.2);
+   margin-top: -1%;
+
+}
+
+#porcentagem-html {
+   text-align: center;
+   color: #FFFFFF;
+   margin-top: 5px;
+}
+
+
+#container-habilidade-css {
+   display: flex;
+   flex-direction: row;
+   margin-top: 5%;
+}
+
+#habilidade-tecnologia-css {
+   color: #FFFFFF;
+   margin-left: 16%;
+   font-size: 19px;
+   margin-top: -3%;
+}
+
+#color-tecnologia-css {
+   background-color: #663399;
+   width: 45%;
+   width: 375px;
+   height: 20px;
+   margin-left: 3%;
+   border-radius: 30px;
+   margin-top: -3%;
+}
+
+
+#div-porcentagem-css {
+   margin-left: 5%;
+   background: rgba(59, 130, 246, 0.15);
+   border: 1px solid rgba(255, 255, 255, 0.2);
+   width: 50px;
+   height: 30px;
+   border: 1px solid rgba(255, 255, 255, 0.2);
+   margin-top: -3%;
+
+}
+
+#porcentagem-css {
+   text-align: center;
+   color: #FFFFFF;
+   margin-top: 7%;
+   font-size: 17px;
+}
+
+
+#container-habilidade-javascript {
+   display: flex;
+   flex-direction: row;
+   margin-top: 2%;
+}
+
+#habilidade-tecnologia-javascript {
+   color: #FFFFFF;
+   margin-left: 13%;
+   font-size: 20px;
+}
+
+#color-tecnologia-javascript {
+   background-color: #663399;
+   width: 340px;
+   height: 20px;
+   margin-left: 2%;
+   border-radius: 30px;
+
+}
+
+#div-porcentagem-javascript {
+   margin-left: 6.8%;
+   background: rgba(59, 130, 246, 0.15);
+   border: 1px solid rgba(255, 255, 255, 0.2);
+   width: 50px;
+   height: 30px;
+   border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+#porcentagem-javascript {
+   text-align: center;
+   color: #FFFFFF;
+   margin-top: 7%;
+   font-size: 17px;
+}
+
+
+#container-habilidade-react {
+   display: flex;
+   flex-direction: row;
+   margin-top: 2%;
+}
+
+#habilidade-tecnologia-react {
+   color: #FFFFFF;
+   margin-left: 15%;
+   font-size: 20px;
+}
+
+#color-tecnologia-react {
+   background-color: #663399;
+   width: 340px;
+   height: 20px;
+   margin-left: 2%;
+   border-radius: 30px;
+}
+
+#div-porcentagem-react {
+   margin-left: 9.4%;
+   background: rgba(59, 130, 246, 0.15);
+   border: 1px solid rgba(255, 255, 255, 0.2);
+   width: 50px;
+   height: 30px;
+   border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+
+#porcentagem-react {
+   text-align: center;
+   color: #FFFFFF;
+   margin-top: 7%;
+   font-size: 17px;
+}
+
+#container-habilidade-node {
+   display: flex;
+   flex-direction: row;
+   margin-top: 2%;
+}
+
+#habilidade-tecnologia-node {
+   color: #FFFFFF;
+   margin-left: 14%;
+   font-size: 20px;
+}
+
+
+#color-tecnologia-node {
+   background-color: #663399;
+   width: 345px;
+   height: 20px;
+   margin-left: 2%;
+   border-radius: 30px;
+}
+
+#div-porcentagem-node {
+   margin-left: 8.1%;
+   background: rgba(59, 130, 246, 0.15);
+   border: 1px solid rgba(255, 255, 255, 0.2);
+   width: 50px;
+   height: 30px;
+   border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+
+#porcentagem-node {
+   text-align: center;
+   color: #FFFFFF;
+   margin-top: 7%;
+   font-size: 17px;
+}
+
+#container-habilidade-git-github {
+   display: flex;
+   flex-direction: row;
+   margin-top: 2%;
+}
+
+#habilidade-tecnologia-git-github {
+   color: #FFFFFF;
+   margin-left: 12%;
+   font-size: 19px;
+}
+
+#color-tecnologia-git-github {
+   background-color: #663399;
+   width: 365px;
+   height: 20px;
+   margin-left: 2%;
+   border-radius: 30px;
+}
+
+#div-porcentagem-git-github {
+   margin-left: 3.5%;
+   background: rgba(59, 130, 246, 0.15);
+   border: 1px solid rgba(255, 255, 255, 0.2);
+   width: 50px;
+   height: 30px;
+   border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+
+#porcentagem-git-github{
+  text-align: center;
+   color: #FFFFFF;
+   margin-top: 7%;
+   font-size: 17px;
 }
