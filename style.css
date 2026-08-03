@@ -19,8 +19,6 @@ body {
 }
 
 
-
-
 #container {
    display: none;
 
@@ -216,13 +214,18 @@ body {
 
 }
 
+#container-me-conheça {
+   display: none;
+}
+
+
 
 .minha-img-section-me-conheca {
    height: 100px;
 
 }
 
-#section-header-me-conheca {
+.section-header-me-conheca {
    margin-left: 19%;
    background: rgba(59, 130, 246, 0.15);
    border: 1px solid rgba(255, 255, 255, 0.2);
@@ -233,7 +236,7 @@ body {
    margin-bottom: 4%;
 }
 
-#minha-img-section-me-conheca {
+.minha-img-section-me-conheca {
    margin-left: 20px;
    margin-top: 2%;
    height: 300px;
@@ -241,7 +244,7 @@ body {
    border: 1px solid
 }
 
-#h1-boas-vindas-container-me-conheca {
+.h1-boas-vindas-container-me-conheca {
    margin-left: 320px;
    position: relative;
    top: -280px;
@@ -249,7 +252,7 @@ body {
    color: #FFFFFF;
 }
 
-#paragrafo-container-me-conheca {
+.paragrafo-container-me-conheca {
    margin-left: 320px;
    position: relative;
    top: -250px;
@@ -258,7 +261,7 @@ body {
 }
 
 
-#container-me-conheca-habilidades-grafico {
+.container-me-conheca-habilidades-grafico {
    margin-left: 19%;
    background: rgba(59, 130, 246, 0.15);
    border: 1px solid rgba(255, 255, 255, 0.2);
@@ -269,7 +272,7 @@ body {
 
 }
 
-#minha-habilidade-article-me-conheca {
+.minha-habilidade-article-me-conheca {
    text-align: center;
    color: #FFFFFF;
    margin-top: 4%;
@@ -277,21 +280,21 @@ body {
 }
 
 
-#container-habilidade-html {
+.container-habilidade-html {
    display: flex;
    flex-direction: row;
    margin-top: 5%;
 
 }
 
-#habilidade-tecnologia-html {
+.habilidade-tecnologia-html {
    color: #FFFFFF;
    margin-left: 16%;
    font-size: 20px;
 }
 
 
-#color {
+.color {
    background-color: #663399;
    width: 45%;
    width: 389px;
@@ -300,7 +303,7 @@ body {
    border-radius: 30px;
 }
 
-#div-porcentagem-html {
+.div-porcentagem-html {
    margin-left: 3%;
    background: rgba(59, 130, 246, 0.15);
    border: 1px solid rgba(255, 255, 255, 0.2);
@@ -311,27 +314,27 @@ body {
 
 }
 
-#porcentagem-html {
+.porcentagem-html {
    text-align: center;
    color: #FFFFFF;
    margin-top: 5px;
 }
 
 
-#container-habilidade-css {
+.container-habilidade-css {
    display: flex;
    flex-direction: row;
    margin-top: 5%;
 }
 
-#habilidade-tecnologia-css {
+.habilidade-tecnologia-css {
    color: #FFFFFF;
    margin-left: 16%;
    font-size: 19px;
    margin-top: -3%;
 }
 
-#color-tecnologia-css {
+.color-tecnologia-css {
    background-color: #663399;
    width: 45%;
    width: 375px;
@@ -342,7 +345,7 @@ body {
 }
 
 
-#div-porcentagem-css {
+.div-porcentagem-css {
    margin-left: 5%;
    background: rgba(59, 130, 246, 0.15);
    border: 1px solid rgba(255, 255, 255, 0.2);
@@ -353,7 +356,7 @@ body {
 
 }
 
-#porcentagem-css {
+.porcentagem-css {
    text-align: center;
    color: #FFFFFF;
    margin-top: 7%;
@@ -361,19 +364,19 @@ body {
 }
 
 
-#container-habilidade-javascript {
+.container-habilidade-javascript {
    display: flex;
    flex-direction: row;
    margin-top: 2%;
 }
 
-#habilidade-tecnologia-javascript {
+.habilidade-tecnologia-javascript {
    color: #FFFFFF;
    margin-left: 13%;
    font-size: 20px;
 }
 
-#color-tecnologia-javascript {
+.color-tecnologia-javascript {
    background-color: #663399;
    width: 340px;
    height: 20px;
@@ -382,7 +385,7 @@ body {
 
 }
 
-#div-porcentagem-javascript {
+.div-porcentagem-javascript {
    margin-left: 6.8%;
    background: rgba(59, 130, 246, 0.15);
    border: 1px solid rgba(255, 255, 255, 0.2);
@@ -391,7 +394,7 @@ body {
    border: 1px solid rgba(255, 255, 255, 0.2);
 }
 
-#porcentagem-javascript {
+.porcentagem-javascript {
    text-align: center;
    color: #FFFFFF;
    margin-top: 7%;
@@ -399,19 +402,19 @@ body {
 }
 
 
-#container-habilidade-react {
+.container-habilidade-react {
    display: flex;
    flex-direction: row;
    margin-top: 2%;
 }
 
-#habilidade-tecnologia-react {
+.habilidade-tecnologia-react {
    color: #FFFFFF;
    margin-left: 15%;
    font-size: 20px;
 }
 
-#color-tecnologia-react {
+.color-tecnologia-react {
    background-color: #663399;
    width: 340px;
    height: 20px;
@@ -419,7 +422,7 @@ body {
    border-radius: 30px;
 }
 
-#div-porcentagem-react {
+.div-porcentagem-react {
    margin-left: 9.4%;
    background: rgba(59, 130, 246, 0.15);
    border: 1px solid rgba(255, 255, 255, 0.2);
@@ -429,27 +432,27 @@ body {
 }
 
 
-#porcentagem-react {
+.porcentagem-react {
    text-align: center;
    color: #FFFFFF;
    margin-top: 7%;
    font-size: 17px;
 }
 
-#container-habilidade-node {
+.container-habilidade-node {
    display: flex;
    flex-direction: row;
    margin-top: 2%;
 }
 
-#habilidade-tecnologia-node {
+.habilidade-tecnologia-node {
    color: #FFFFFF;
    margin-left: 14%;
    font-size: 20px;
 }
 
 
-#color-tecnologia-node {
+.color-tecnologia-node {
    background-color: #663399;
    width: 345px;
    height: 20px;
@@ -457,7 +460,7 @@ body {
    border-radius: 30px;
 }
 
-#div-porcentagem-node {
+.div-porcentagem-node {
    margin-left: 8.1%;
    background: rgba(59, 130, 246, 0.15);
    border: 1px solid rgba(255, 255, 255, 0.2);
@@ -467,26 +470,26 @@ body {
 }
 
 
-#porcentagem-node {
+.porcentagem-node {
    text-align: center;
    color: #FFFFFF;
    margin-top: 7%;
    font-size: 17px;
 }
 
-#container-habilidade-git-github {
+.container-habilidade-git-github {
    display: flex;
    flex-direction: row;
    margin-top: 2%;
 }
 
-#habilidade-tecnologia-git-github {
+.habilidade-tecnologia-git-github {
    color: #FFFFFF;
    margin-left: 12%;
    font-size: 19px;
 }
 
-#color-tecnologia-git-github {
+.color-tecnologia-git-github {
    background-color: #663399;
    width: 365px;
    height: 20px;
@@ -494,7 +497,7 @@ body {
    border-radius: 30px;
 }
 
-#div-porcentagem-git-github {
+.div-porcentagem-git-github {
    margin-left: 3.5%;
    background: rgba(59, 130, 246, 0.15);
    border: 1px solid rgba(255, 255, 255, 0.2);
@@ -504,9 +507,38 @@ body {
 }
 
 
-#porcentagem-git-github{
-  text-align: center;
+.porcentagem-git-github {
+   text-align: center;
    color: #FFFFFF;
    margin-top: 7%;
    font-size: 17px;
 }
+
+
+.container-projetos {
+   display: flex;
+   flex-direction: column;
+}
+
+
+
+.container-projetos{
+width: 100%;
+justify-content: center;
+}
+
+.subtitulo-projetos{
+text-align: center;
+font-size: 40px;
+color: #FFFFFF;
+margin-bottom: 2%;
+}
+
+.paragrafo-projetos{
+width:550px;
+text-align: center;
+margin-left: 29%;
+color: #FFFFFF;
+
+}
+
