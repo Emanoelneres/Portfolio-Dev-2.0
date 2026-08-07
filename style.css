@@ -520,6 +520,7 @@ body {
    flex-direction: column;
    width: 100%;
    justify-content: center;
+   display: none;
 }
 
 
@@ -592,3 +593,77 @@ body {
    text-decoration: none;
 }
 
+.habilidades-logo {
+   height: 100px;
+
+}
+
+
+.container-habilidades {
+   display: flex;
+   flex-direction: column;
+}
+
+.subtitulo-habilidade {
+   text-align: center;
+   font-size: 30px;
+   color: #FFFFFF;
+   margin-bottom: 2%;
+}
+
+.paragrafo-habilidade {
+   text-align: center;
+   font-size: 20px;
+   color: #FFFFFF;
+   margin-bottom: 4%;
+
+}
+
+
+.img-habiidades {
+   margin-left: 23%;
+   backdrop-filter: blur(20px);
+   background: rgba(59, 130, 246, 0.15);
+   border: 1px solid rgba(255, 255, 255, 0.2);
+   border-radius: 30px;
+   width: 55%;
+   height: 250px;
+   margin-bottom: 4%;
+}
+
+
+
+.ul-icones {
+   list-style: none;
+   display: flex;
+   flex-wrap: wrap;
+   flex-direction: row;
+   justify-content: space-between;
+}
+
+.habilidades-logo-nodes {
+   margin-left: 35%;
+   height: 100px;
+
+}
+
+.habilidades-logo-mongo {
+   margin-left: 10%;
+   height: 100px;
+}
+
+.habilidades-logo-git{
+height: 100px;
+
+}
+
+.habilidades-logo-github{
+height: 130px;
+margin-left: -30%;
+margin-top: -10%;
+}
+
+.hablidade-logo-react{
+height: 100px;
+margin-left: -10%;
+}
