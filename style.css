@@ -53,7 +53,15 @@ body {
    color: #FFFFFF;
    display: flex;
    gap: 15px;
+   cursor: pointer;
    /*Espaçamento entre os links*/
+}
+
+
+.link-inicio {
+   font-size: 19px;
+   margin-top: -2px;
+   color: #FFFFFF;
 }
 
 
@@ -780,36 +788,36 @@ body {
 }
 
 
-.paragrafo-redes{
- text-align: center;
+.paragrafo-redes {
+   text-align: center;
    color: #FFFFFF;
 }
 
-.img-github-logo{
-height: 85px;
+.img-github-logo {
+   height: 85px;
 
 }
 
 
-.img-logo{
-height:70px;
+.img-logo {
+   height: 70px;
 }
 
 .address-redes-sociais {
-list-style: none;
-display: flex;
-flex-direction: row;
-justify-content: center;
-margin-top: 10%;
-gap: 10px;
+   list-style: none;
+   display: flex;
+   flex-direction: row;
+   justify-content: center;
+   margin-top: 10%;
+   gap: 10px;
 }
 
-.secao{
-display: none;
+.secao {
+   display: none;
 
 }
 
-.secao.ativa{
-display: block;
+.secao.ativa {
+   display: block;
 
 }
