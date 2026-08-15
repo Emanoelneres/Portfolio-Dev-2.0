@@ -19,14 +19,8 @@ body {
 }
 
 
-#container {
-   display: none;
 
-}
-
-
-
-.header-nav {
+#header-nav {
    width: 65%;
    /*Largura definida do elemento*/
    height: 120px;
@@ -63,7 +57,7 @@ body {
 }
 
 
-#main-futuro {
+.main-futuro {
    margin-left: 19%;
    backdrop-filter: blur(20px);
    background: rgba(59, 130, 246, 0.15);
@@ -76,13 +70,13 @@ body {
 
 }
 
-#img-main-futuro {
+.img-main-futuro {
    margin-left: 20px;
    height: 300px;
    border-radius: 40px;
 }
 
-#boas-vindas-main-futuro {
+.boas-vindas-main-futuro {
    margin-left: 320px;
    position: relative;
    top: 60px;
@@ -92,7 +86,7 @@ body {
 
 }
 
-#p-main-futuro {
+.p-main-futuro {
    width: 550px;
    position: relative;
    left: 290px;
@@ -112,7 +106,7 @@ body {
 }
 
 
-#article-futurista {
+.article-futurista {
    margin-left: 2%;
    background: rgba(59, 130, 246, 0.15);
    border: 1px solid rgba(255, 255, 255, 0.2);
@@ -124,20 +118,20 @@ body {
 
 }
 
-#img-section-robo {
+.img-section-robo {
    height: 40px;
    margin-left: 42%;
 
 }
 
-#h2-estetica-futurista-section-final {
+.h2-estetica-futurista-section-final {
    color: #FFFFFF;
    text-align: center;
    font-size: 20px;
    margin-bottom: 2%;
 }
 
-#paragrafo-futurista-section-final {
+.paragrafo-futurista-section-final {
    color: #FFFFFF;
    text-align: center;
    font-size: 15px;
@@ -156,13 +150,13 @@ body {
 }
 
 
-#img-section-final-raio {
+.img-section-final-raio {
    height: 50px;
    margin-left: 42%;
 }
 
 
-#h2-rapida-performance-section-final {
+.h2-rapida-performance-section-final {
    color: #FFFFFF;
    text-align: center;
    font-size: 20px;
@@ -170,7 +164,7 @@ body {
 }
 
 
-#paragrafo-rapida-performance {
+.paragrafo-rapida-performance {
    color: #FFFFFF;
    text-align: center;
    font-size: 15px;
@@ -191,13 +185,13 @@ body {
 }
 
 
-#img-section-final-celular {
+.img-section-final-celular {
    height: 50px;
    margin-left: 42%;
 
 }
 
-#h2-responsividade-section-final {
+.h2-responsividade-section-final {
    color: #FFFFFF;
    text-align: center;
    font-size: 20px;
@@ -206,16 +200,12 @@ body {
 }
 
 
-#paragrafo-responsividade {
+.paragrafo-responsividade {
    color: #FFFFFF;
    text-align: center;
    font-size: 15px;
    margin-top: 1%;
 
-}
-
-#container-me-conheça {
-   display: none;
 }
 
 
@@ -515,12 +505,8 @@ body {
 }
 
 
-.container-projetos {
-   display: flex;
-   flex-direction: column;
+#container-projetos {
    width: 100%;
-   justify-content: center;
-   display: none;
 }
 
 
@@ -596,13 +582,6 @@ body {
 .habilidades-logo {
    height: 100px;
 
-}
-
-
-.container-habilidades {
-   display: flex;
-   flex-direction: column;
-   display: none;
 }
 
 .subtitulo-habilidade {
@@ -816,11 +795,21 @@ height: 85px;
 height:70px;
 }
 
-.adress-redes-sociais{
+.address-redes-sociais {
 list-style: none;
 display: flex;
 flex-direction: row;
 justify-content: center;
 margin-top: 10%;
 gap: 10px;
+}
+
+.secao{
+display: none;
+
+}
+
+.secao.ativa{
+display: block;
+
 }

@@ -10,18 +10,18 @@
 
 <body>
 
-
     <header id="header-nav"><!---Elemento pai-->
         <h1>Jon.Exe</h1>
         <nav id="nav-secoes">
-            <a>Me conheça</a>
-            <a>Projetos</a>
-            <a>Habilidades</a>
-            <a>Contatos</a>
+            <a class="link-inicio">Início</a>
+            <a class="link-me-conheca">Me conheça</a>
+            <a class="link-projetos">Projetos</a>
+            <a class="link-habilidades">Habilidades</a>
+            <a class="link-contato">Contatos</a>
         </nav>
     </header>
 
-    <div id="container">
+    <div class="secao ativa" id="container-inicio">
         <main class="main-futuro">
 
             <h2 class="boas-vindas-main-futuro">Bem vindo ao futuro</h2>
@@ -77,8 +77,7 @@
         </section>
     </div>
 
-
-    <section id="container-me-conheça">
+    <section class="secao" id="container-me-conheca">
 
         <header class="section-header-me-conheca">
 
@@ -153,7 +152,7 @@
 
     </section>
 
-    <section class="container-projetos">
+    <section class="secao" id="container-projetos">
         <h2 class="subtitulo-projetos">Meus Projetos</h2>
         <p class="paragrafo-projetos">Seleção de projetos focados em performance, usabilidade e experiência do usuário
             no desenvolvimento Front-End..</p>
@@ -170,7 +169,7 @@
     </section>
 
 
-    <section class="container-habilidades">
+    <section class="secao" id="container-habilidades">
 
         <h3 class="subtitulo-habilidade">Minhas Habilidades</h3>
         <p class="paragrafo-habilidade">tecnologias que uso para Desenvolver aplicações modernas e eficientes</p>
@@ -213,7 +212,7 @@
     </section>
 
 
-    <section class="section-contato">
+    <section class="secao" id="section-contato">
 
         <header class="header-contato">
             <h2 class="subtitulo-contato">Vamos trabalhar juntos?</h2>
@@ -280,7 +279,7 @@
         </article>
 
     </section>
-
+ <script src="./script.js"></script>
 </body>
 
 </html>
