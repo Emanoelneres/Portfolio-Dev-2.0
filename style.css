@@ -629,6 +629,12 @@ body {
    justify-content: space-between;
 }
 
+
+.habilidades-logo-javascript {
+      height: 95px;
+      margin-left: -5%;
+   }
+
 .habilidades-logo-nodes {
    margin-left: 35%;
    height: 100px;
@@ -820,4 +826,90 @@ body {
 .secao.ativa {
    display: block;
 
+}
+
+
+@media(max-width:1115px) {
+
+   .nome-jon {
+      margin-left: 10%;
+   }
+
+   .link-inicio {
+      margin-left: -27%;
+     margin-top: -0.5%;
+   }
+
+
+   .boas-vindas-main-futuro {
+      font-size: 35px;
+
+   }
+
+   .p-main-futuro {
+      font-size: 18px;
+      width: 400px;
+
+   }
+
+   .container-habilidade-html {
+      margin-left: 0.2%;
+
+   }
+
+   .container-habilidade-css {
+      margin-left: 0.6%;
+
+   }
+
+   .container-habilidade-react {
+      margin-left: 1.5%;
+
+   }
+
+   .container-habilidade-node {
+      margin-left: 0.8%;
+
+   }
+
+   .container-habilidade-git-github {
+      margin-left: -1%;
+
+   }
+
+   .subtitulo-projetos {
+      margin-left: 6%;
+   }
+
+   .ul-icones {
+      width: 117%;
+
+   }
+
+   .hablidade-logo-react {
+      margin-left: -36%;
+
+
+   }
+
+   .habilidades-logo-github {
+      margin-left: -65%;
+
+   }
+
+   .habilidades-logo-javascript {
+      height: 89px;
+      margin-left: -10%;
+   }
+
+   .habilidades-logo-git{
+   margin-left: -7%;
+
+   }
+
+   .secao-redes-sociais{
+    width: 400px;
+    margin-left: 60%;
+    margin-top: -27%;
+   }
 }
