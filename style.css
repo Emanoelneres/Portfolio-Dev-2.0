@@ -922,5 +922,90 @@ body {
       margin-top: -27%;
    }
 
+}
+
+
+
+@media(max-width:1008px) {
+
+   .link-inicio,
+   .link-me-conheca,
+   .link-projetos,
+   .link-habilidades,
+   .link-contato {
+      font-size: 15px;
+
+   }
+
+
+   .nome-jon {
+      font-size: 30px;
+      margin-left: 11%;
+   }
+
+
+   .p-main-futuro {
+      width: 380px;
+
+
+   }
+
+
+   .paragrafo-container-me-conheca {
+      font-size: 17px;
+
+   }
+
+
+   .div-porcentagem-git-github {
+      position: relative;
+      left: -5px;
+
+   }
+
+   .div-porcentagem-react {
+      position: relative;
+      left: 3px;
+
+   }
+
+
+   .subtitulo-projetos {
+      margin-left: 14%;
+
+   }
+
+   .habilidades-logo-nodes {
+      position: relative;
+      left: -3%;
+   }
+
+   .habilidades-logo-mongo {
+      position: relative;
+      left: -15%;
+
+   }
+
+
+   .habilidades-logo-git {
+      position: relative;
+      left: -15%;
+
+   }
+
+   .endereco-contatos{
+    width: 400px;
+
+   }
+
+.secao-redes-sociais{
+
+width: 400px;
+margin-top: -29.5%;
+position: relative;
+left: -2%;
+}
+
+
 
 }
