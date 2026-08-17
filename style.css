@@ -592,6 +592,7 @@ body {
 
 }
 
+
 .subtitulo-habilidade {
    text-align: center;
    font-size: 30px;
@@ -631,9 +632,9 @@ body {
 
 
 .habilidades-logo-javascript {
-      height: 95px;
-      margin-left: -5%;
-   }
+   height: 95px;
+   margin-left: -5%;
+}
 
 .habilidades-logo-nodes {
    margin-left: 35%;
@@ -837,7 +838,7 @@ body {
 
    .link-inicio {
       margin-left: -27%;
-     margin-top: -0.5%;
+      margin-top: -0.5%;
    }
 
 
@@ -886,30 +887,40 @@ body {
 
    }
 
-   .hablidade-logo-react {
-      margin-left: -36%;
+   .habilidades-logo {
+      height: 88px;
 
+   }
+
+   .hablidade-logo-react {
+      margin-left: -35%;
+      height: 95px;
 
    }
 
    .habilidades-logo-github {
-      margin-left: -65%;
-
+      margin-left: -99%;
+      height: 90px;
+      margin-top: 3%;
    }
 
    .habilidades-logo-javascript {
-      height: 89px;
-      margin-left: -10%;
+      height: 80px;
+      margin-left: -15%;
    }
 
-   .habilidades-logo-git{
-   margin-left: -7%;
+   .habilidades-logo-git {
+      margin-left: -39%;
+      margin-top: 10%;
+      height: 80px;
 
    }
 
-   .secao-redes-sociais{
-    width: 400px;
-    margin-left: 60%;
-    margin-top: -27%;
+   .secao-redes-sociais {
+      width: 400px;
+      margin-left: 60%;
+      margin-top: -27%;
    }
+
+
 }
